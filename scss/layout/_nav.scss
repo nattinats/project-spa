@@ -102,24 +102,9 @@
       align-self: flex-start;
 
       .menu {
-        background-color: #ffff;
-
-
-        .menu-item {
-
-          display: inline-block;
-          margin: 0 20px;
-          font-size: initial;
-
-
-          a {
-            color: $secondary-color;
-            font-weight: 700px;
-          }
-        }
+        @include menu-list;
       }
 
     }
   }
-
 }
